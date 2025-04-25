@@ -1,0 +1,37 @@
+Tethered: Design Notes
+
+1. Design Inspiration & Goals  
+The design of Tethered focuses on simplicity, warmth, and emotional support. Inspired by apps like Paired and Finch, the goal is to create a digital space that helps couples stay connected through daily, low-effort check-ins that spark deeper conversation and emotional awareness.
+
+2. Core Features Chosen  
+- Daily check-in prompt system  
+- Mood tracking and journal entries  
+- Question bank with rotating relationship prompts  
+- Mutual responses and “connectedness” meter  
+- History log of shared answers for reflection  
+
+These features were selected to address common pain points in relationship communication and to feel light and sustainable for daily use.
+
+3. Visual Design & Aesthetic  
+A minimal and modern UI was chosen with calming tones, soft shadows, and rounded elements to evoke a sense of ease and intimacy. The layout guides users naturally through their check-in, keeping distractions low.
+
+4. User Journey Flow  
+The user flow is structured for ease:  
+- Morning prompt notification  
+- Quick daily check-in via mood scale and reflection  
+- Evening reflection or bonus prompt  
+- Shared insights between partners  
+
+This encourages emotional syncing without overloading the users.
+
+5. Technical Thoughts / Logic Planning  
+While no code is required, the pseudocode created outlines how the check-in logic might work. The app logic would involve:  
+- Generating a new daily prompt  
+- Storing user responses securely  
+- Matching responses between partners  
+- Allowing for feedback or emojis in reaction  
+
+6. Future Possibilities  
+- AI-generated prompt customization  
+- Therapist-curated prompt packs  
+- Integration with calendars or wellness apps
