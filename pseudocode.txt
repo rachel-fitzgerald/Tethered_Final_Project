@@ -1,0 +1,36 @@
+# Pseudocode for Tethered: Core Feature Logic
+
+## Feature 1: Daily Check-In Prompt
+
+Every day at 8:00 AM:
+    FOR each user in the couple:
+        SEND notification: "How are you feeling today?"
+        WAIT for response
+
+    IF both users have responded:
+        DISPLAY responses to each partner
+        SUGGEST conversation prompt based on mood data
+    ELSE:
+        SEND gentle reminder at 11:00 AM
+
+## Feature 2: Weekly Relationship Pulse Survey
+
+Every Sunday at 6:00 PM:
+    FOR each user:
+        DISPLAY short survey (5 questions)
+        STORE results privately
+
+    ONCE both complete:
+        DISPLAY comparative summary to both users
+        HIGHLIGHT areas of alignment or concern
+        OFFER link to communication resources or tips
+
+## Feature 3: Connection Streaks
+
+    WHEN both partners complete a check-in on the same day:
+        INCREMENT connection streak by 1
+    ELSE:
+        RESET connection streak to 0
+
+    DISPLAY streak tracker on home screen
+
