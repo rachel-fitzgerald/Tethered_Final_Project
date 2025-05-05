@@ -1,36 +1,53 @@
-# Pseudocode for Tethered: Core Feature Logic
+# Tethered – Pseudocode Overview
 
-## Feature 1: Daily Check-In Prompt
+This file outlines the core logic for three of Tethered’s key features: Daily Check-In, Conflict Pause Tool, and Shared Goal Tracker.
 
-Every day at 8:00 AM:
-    FOR each user in the couple:
-        SEND notification: "How are you feeling today?"
-        WAIT for response
+---
 
-    IF both users have responded:
-        DISPLAY responses to each partner
-        SUGGEST conversation prompt based on mood data
-    ELSE:
-        SEND gentle reminder at 11:00 AM
+## 1. Daily Check-In
 
-## Feature 2: Weekly Relationship Pulse Survey
+Purpose: Prompt users to reflect briefly on their emotional state and relationship tone each day.
 
-Every Sunday at 6:00 PM:
-    FOR each user:
-        DISPLAY short survey (5 questions)
-        STORE results privately
+Function DailyCheckIn(user_id):
+    Prompt user with reflection questions:
+        - How are you feeling today?
+        - What’s one thing your partner did you appreciated?
+        - What’s something you’re looking forward to?
+    Store responses with timestamp
 
-    ONCE both complete:
-        DISPLAY comparative summary to both users
-        HIGHLIGHT areas of alignment or concern
-        OFFER link to communication resources or tips
+    Ask: Share with partner? (Yes/No)
+    If Yes:
+        Send shared reflections to partner’s inbox
+    Else:
+        Save privately in user journal
 
-## Feature 3: Connection Streaks
+    End Function
 
-    WHEN both partners complete a check-in on the same day:
-        INCREMENT connection streak by 1
-    ELSE:
-        RESET connection streak to 0
+## 2. Conflict Pause Tool
+Function ConflictPause(user_id, partner_id):
+    Display calming interface with:
+        - Breathing timer
+        - Reminder: “Take a moment before reacting”
 
-    DISPLAY streak tracker on home screen
+    Prompt each partner:
+        - What are you feeling right now?
+        - What’s your perspective on the conflict?
+        - What do you need to feel heard?
 
+    Save responses in private log
+    Suggest re-connection prompt (e.g., “Would you like to review each other’s reflections later?”)
+
+    End Function
+
+## 3. Goal Tracker
+Function CreateSharedGoal(user_id, partner_id, goal_text, duration):
+    Prompt both users to confirm goal
+    If both agree:
+        Save goal with start date and end date
+        Track progress (e.g., check-ins, tasks, notes)
+    Else:
+        Cancel goal setup
+
+    Notify each partner of updates (weekly summary, check-ins)
+
+    End Function
