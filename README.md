@@ -49,7 +49,8 @@ Apps like *Paired* attempt to bridge the gap, but they often fall short in:
 
 ## Pseudocode Logic
 
-Pseudocode examples for key features like Daily Check-In and Conflict Pause are located in [`pseudocode.txt`](pseudocode.txt).
+Pseudocode examples for key features like Daily Check-In and Conflict Pause are located in [View Full Pseudocode](./pseudocode.txt)
+
 
 
 ## File Structure
