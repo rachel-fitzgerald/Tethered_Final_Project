@@ -1,70 +1,53 @@
-# Tethered_Final_Project
+# Tethered: A Conceptual Support App for Couples
 
-## 📌 Overview
-**Tethered** is a conceptual couples-focused app designed to strengthen emotional connection through intentional daily check-ins and shared reflections. This project was developed as part of my final assignment for CIS129, with a focus on designing software that solves a real-world relationship challenge.
+**Tethered** is a conceptual mobile app designed to help couples strengthen their relationship through meaningful, daily interactions. Built around psychological research and user needs, Tethered encourages intentional communication, collaborative goal-setting, and personalized conflict support — all while respecting privacy and inclusivity.
 
----
 
-## 💡 Problem Statement
-In busy modern life, many couples struggle to maintain consistent, meaningful communication. Existing tools are either too casual or not tailored to intentional relationship-building. Tethered seeks to solve that problem with an experience rooted in shared emotional presence.
+## Problem Statement
 
----
+Many couples struggle with:
+- Inconsistent communication and reflection habits
+- Lack of accessible tools for healthy conflict resolution
+- Limited support for diverse relationship structures
 
-## 🛠️ Features and Design
-- Daily emotion check-ins and thoughtful prompts
-- Private, shared reflection space between partners
-- Gentle notifications and streak tracking for consistency
-- Designed to foster healthy communication, not just messaging
+Apps like *Paired* attempt to bridge the gap, but they often fall short in:
+- Privacy-respecting transparency
+- Conflict-specific guidance
+- Inclusive design for polyamorous or nontraditional couples
 
----
 
-## 📐 Project Structure
-- `presentation/` – PDF of final slides
-- `designs/` – UI mockups and journey flows
-- `pseudocode/` – Daily check-in logic
-- `research/` – Notes and sources used in exploration
-- `README.md` – Project summary (this file)
+## Solution Overview
 
----
+**Tethered** supports healthy habits through:
+- 🧠 **Daily Micro-Reflections**: Quick daily check-ins with prompts
+- 🔗 **Shared Goals**: Collaboratively set and track relationship goals
+- 💬 **Conflict Support**: Tools for pausing, reframing, and resolving disagreements
+- 🔒 **Privacy Controls**: Personal journaling + controlled sharing
+- 🌈 **Inclusivity First**: Designed to support various relationship models
 
-## 🧠 Research Summary
-This project included research into:
-- Common relationship challenges
-- Psychology of communication tools
-- Existing apps like Paired, Lasting, and Between
-- Gaps in intentional, emotional-focused design
 
----
+## User Journey
 
-## 📎 Project Goals
-- Propose a conceptual app design with clear UX thinking
-- Demonstrate programming logic via pseudocode
-- Explore how software can address human connection needs
-- Visualize user interaction through mockups and flows
+![User Journey Diagram](assets/user_journey.png)
 
----
+> See full journey map in `User Journey.pdf`.
 
-## 📝 Tools Used
-- Google Slides (for presentation)
-- Figma-style mockups (AI-generated)
-- Markdown for documentation
-- GitHub for version control and sharing
 
----
+## Key Features
 
-## ❓ Open Questions
-- How might this app handle sensitive emotional data securely?
-- Could AI be integrated to personalize prompts based on mood?
-- What challenges would arise in keeping daily check-ins from becoming routine or forced?
+| Feature                 | Description |
+|------------------------|-------------|
+| **Daily Check-In**     | Prompts and emotion tags for self-reflection |
+| **Partner Sync**       | Optional sharing of select responses |
+| **Conflict Pause Tool**| Prompts to cool down, reframe, and reconnect |
+| **Goal Tracker**       | Set, monitor, and celebrate relational milestones |
+| **Custom Prompts**     | Create your own shared questions or reflections |
 
----
 
-## 🔗 Live Resources
-- Final Project Presentation (PDF): [link once uploaded]
-- GitHub Repo: [your current repo link]
+## Pseudocode Logic
 
----
+Pseudocode examples for key features like Daily Check-In and Conflict Pause are located in [`pseudocode.txt`](pseudocode.txt).
 
-## 🧾 License
-This is a conceptual student project. No actual app development or deployment was done. All mockups are for educational use only.
+
+## File Structure
 
