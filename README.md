@@ -28,9 +28,6 @@ Apps like *Paired* attempt to bridge the gap, but they often fall short in:
 
 ## User Journey
 
-![User Journey Diagram](assets/user_journey.png)
-
-> See full journey map in `User Journey.pdf`.
 
 
 ## Key Features
@@ -51,3 +48,37 @@ Pseudocode examples for key features like Daily Check-In and Conflict Pause are 
 
 ## File Structure
 
+```
+Tethered_Final_Project/
+├── Tethered.pdf               # Final presentation slides
+├── User Journey.pdf           # User experience flow
+├── pseudocode.txt             # Core app logic in pseudocode
+├── Design Notes/              # Brainstorming + interface sketches
+├── Citations.txt              # Research sources
+└── README.md                  # You're here!
+```
+
+
+## Future Considerations
+
+- How can we protect user data while enabling meaningful sharing?
+- What’s the most effective in-app design for conflict resolution?
+- Could this app scale to non-romantic or polyamorous configurations?
+
+
+## References
+
+- [Psychology Today – The Power of Small Daily Connections](https://www.psychologytoday.com/us/blog/stronger-the-broken-places/201805/the-power-small-daily-connections)
+- [Paired App](https://www.paired.com)
+- American Psychological Association – Communication and Satisfaction studies
+- Additional sources listed in [`Citations.txt`](Citations.txt)
+
+
+## Status
+
+This is a conceptual design for an academic project. No live code exists yet, but the project is ready for future prototyping in tools like React Native or Flutter with Firebase backend support.
+
+
+## Thank You
+
+Thanks for checking out **Tethered**. Questions, thoughts, or feedback are always welcome!
