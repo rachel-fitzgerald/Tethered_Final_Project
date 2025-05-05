@@ -28,6 +28,12 @@ Apps like *Paired* attempt to bridge the gap, but they often fall short in:
 
 ## User Journey
 
+## UI Mockups
+
+![Daily Check-In](assets/daily_checkin_mockup.png)
+![Conflict Pause Tool](assets/conflict_pause_mockup.png)
+![Goal Tracker](assets/goal_tracker_mockup.png)
+
 
 
 ## Key Features
