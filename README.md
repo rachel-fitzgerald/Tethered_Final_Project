@@ -1,91 +1,72 @@
 # Tethered: A Conceptual Support App for Couples
 
-**Tethered** is a conceptual mobile app designed to help couples strengthen their relationship through meaningful, daily interactions. Built around psychological research and user needs, Tethered encourages intentional communication, collaborative goal-setting, and personalized conflict support — all while respecting privacy and inclusivity.
+**Tethered** is a conceptual software solution designed to support couples in building emotional intimacy and healthy communication habits through small, daily check-ins. Inspired by existing apps like *Paired* and *Lasting*, Tethered fills key gaps in personalization, conflict support, and emotional transparency.
 
+> “Connection is why we’re here.” – Brené Brown
 
-## Problem Statement
+## 📄 Final Presentation
 
-Many couples struggle with:
-- Inconsistent communication and reflection habits
-- Lack of accessible tools for healthy conflict resolution
-- Limited support for diverse relationship structures
+- [Tethered_Final.pdf](./Tethered%20Final.pdf): Full PDF presentation including research, solution design, pseudocode, UI mockups, and open questions.
 
-Apps like *Paired* attempt to bridge the gap, but they often fall short in:
-- Privacy-respecting transparency
-- Conflict-specific guidance
-- Inclusive design for polyamorous or nontraditional couples
+## 🧭 Table of Contents
 
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Solution: Tethered](#solution-tethered)
+- [Key Features](#key-features)
+- [Design Approach](#design-approach)
+- [Pseudocode](#pseudocode)
+- [User Journey](#user-journey)
+- [Real-World Applications](#real-world-applications)
+- [Open Questions](#open-questions)
+- [Citations](#citations)
+- [Assignment Coverage](#assignment-coverage)
 
-## Solution Overview
+## 📌 Overview
 
-**Tethered** supports healthy habits through:
-- 🧠 **Daily Micro-Reflections**: Quick daily check-ins with prompts
-- 🔗 **Shared Goals**: Collaboratively set and track relationship goals
-- 💬 **Conflict Support**: Tools for pausing, reframing, and resolving disagreements
-- 🔒 **Privacy Controls**: Personal journaling + controlled sharing
-- 🌈 **Inclusivity First**: Designed to support various relationship models
+**Tethered** helps couples:
+- Build emotional connection through daily micro-reflections
+- Develop healthier communication habits
+- Feel secure and supported through personalized, affirming interactions
 
+## ❓ Problem Statement
 
-## User Journey
+While several apps aim to support relationships, most fall into two categories: **fun but shallow** (e.g., Paired) or **clinical and rigid** (e.g., Lasting). Few adapt to the unique dynamics of a couple or offer support for both routine connection and conflict repair.
 
-## UI Mockups
+## 💡 Solution: Tethered
 
-![Daily Check-In](assets/daily_checkin_mockup.png)
-![Conflict Pause Tool](assets/conflict_pause_mockup.png)
-![Goal Tracker](assets/goal_tracker_mockup.png)
+Tethered provides:
+- Daily prompts for reflection and communication
+- Asynchronous participation with synced reveal
+- Adaptive activities based on partner responses
+- Balance of individual privacy and shared experience
 
+## 🌟 Key Features
 
+- 📝 Daily Questions: Personalized prompts for both partners  
+- 🔒 Private Responses: Hidden until both have answered  
+- ✅ Matched Answers → Shared Activity  
+- 🔄 Mismatched Answers → Growth Activity  
+- ⏰ Custom Reminders  
+- 🔔 Real-time partner notifications  
 
-## Key Features
+## 🧠 Design Approach
 
-| Feature                 | Description |
-|------------------------|-------------|
-| **Daily Check-In**     | Prompts and emotion tags for self-reflection |
-| **Partner Sync**       | Optional sharing of select responses |
-| **Conflict Pause Tool**| Prompts to cool down, reframe, and reconnect |
-| **Goal Tracker**       | Set, monitor, and celebrate relational milestones |
-| **Custom Prompts**     | Create your own shared questions or reflections |
+- Grounded in relationship science (Gottman, Stanley & Markman)
+- Focused on *low-pressure*, *high-consistency* habits
+- Evolved from conflict-centered design to micro-reflection format based on peer feedback
+- Inclusive design for long-distance and neurodiverse couples
 
+## 💻 Pseudocode
 
-## Pseudocode Logic
+```python
+If new_day:
+    prompt_user1 = generate_prompt()
+    prompt_user2 = generate_prompt()
+    send_to_users(prompt_user1, prompt_user2)
 
-Pseudocode examples for key features like Daily Check-In and Conflict Pause are located in [View Full Pseudocode](./pseudocode.txt)
-
-
-
-## File Structure
-
-```
-Tethered_Final_Project/
-├── Tethered.pdf               # Final presentation slides
-├── User Journey.pdf           # User experience flow
-├── pseudocode.txt             # Core app logic in pseudocode
-├── Design Notes/              # Brainstorming + interface sketches
-├── Citations.txt              # Research sources
-└── README.md                  # You're here!
-```
-
-
-## Future Considerations
-
-- How can we protect user data while enabling meaningful sharing?
-- What’s the most effective in-app design for conflict resolution?
-- Could this app scale to non-romantic or polyamorous configurations?
-
-
-## References
-
-- [Psychology Today – The Power of Small Daily Connections](https://www.psychologytoday.com/us/blog/stronger-the-broken-places/201805/the-power-small-daily-connections)
-- [Paired App](https://www.paired.com)
-- American Psychological Association – Communication and Satisfaction studies
-- Additional sources listed in [`Citations.txt`](Citations.txt)
-
-
-## Status
-
-This is a conceptual design for an academic project. No live code exists yet, but the project is ready for future prototyping in tools like React Native or Flutter with Firebase backend support.
-
-
-## Thank You
-
-Thanks for checking out **Tethered**. Questions, thoughts, or feedback are always welcome!
+If response_received:
+    store_response(user_id, timestamp)
+    check_if_both_responded()
+        if yes:
+            unlock_joint_reflection()
