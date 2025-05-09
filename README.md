@@ -9,7 +9,7 @@
 
 ## 📄 Final Presentation
 
-- [Tethered_Final.pdf](./Tethered%20Final.pdf): Full PDF presentation including research, solution design, pseudocode, UI mockups, and open questions.
+- [Tethered_Final.pdf](https://github.com/rachel-fitzgerald/Tethered_Final_Project/blob/main/Tethered%20Final.pdf): Full PDF presentation including research, solution design, pseudocode, UI mockups, and open questions.
 
 ---
 
